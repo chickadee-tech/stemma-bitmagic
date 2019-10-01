@@ -1,0 +1,247 @@
+EESchema Schematic File Version 4
+LIBS:stemmaqt_shift-cache
+LIBS:epd-logic-cache
+EELAYER 30 0
+EELAYER END
+$Descr User 12296 8468
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	10500 1400 9200 1400
+Text Label 9800 1400 0    70   ~ 0
+GND
+Wire Wire Line
+	9200 1700 10500 1700
+Text Label 9800 1700 0    70   ~ 0
+SCL
+Wire Wire Line
+	10500 1600 9200 1600
+Text Label 9800 1600 0    70   ~ 0
+SDA
+Wire Wire Line
+	9200 1500 10500 1500
+Text Label 9800 1500 0    70   ~ 0
+VCC
+$Comp
+L stemmaqt_shift-eagle-import:MOUNTINGHOLE2.5 U$1
+U 1 1 4D826FCC
+P 10700 6700
+F 0 "U$1" H 10700 6700 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10700 6700 50  0001 C CNN
+F 2 "stemmaqt_shift:MOUNTINGHOLE_2.5_PLATED" H 10700 6700 50  0001 C CNN
+F 3 "" H 10700 6700 50  0001 C CNN
+	1    10700 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:MOUNTINGHOLE2.5 U$17
+U 1 1 158347E1
+P 10700 6400
+F 0 "U$17" H 10700 6400 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10700 6400 50  0001 C CNN
+F 2 "stemmaqt_shift:MOUNTINGHOLE_2.5_PLATED" H 10700 6400 50  0001 C CNN
+F 3 "" H 10700 6400 50  0001 C CNN
+	1    10700 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:STEMMA_I2C_QT CONN3
+U 1 1 E4F84F6B
+P 9200 1600
+F 0 "CONN3" H 9050 1925 59  0001 L BNN
+F 1 "STEMMA_I2C_QT" H 9050 1300 59  0001 L BNN
+F 2 "stemmaqt_shift:JST_SH4" H 9200 1600 50  0001 C CNN
+F 3 "" H 9200 1600 50  0001 C CNN
+	1    9200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:STEMMA_I2C_QT CONN4
+U 1 1 5A1168A9
+P 10500 1600
+F 0 "CONN4" H 10350 1925 59  0001 L BNN
+F 1 "STEMMA_I2C_QT" H 10350 1300 59  0001 L BNN
+F 2 "stemmaqt_shift:JST_SH4" H 10500 1600 50  0001 C CNN
+F 3 "" H 10500 1600 50  0001 C CNN
+	1    10500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:FRAME_A4_ADAFRUIT #U$18
+U 1 1 C94BCEDA
+P 1100 7600
+F 0 "#U$18" H 1100 7600 50  0001 C CNN
+F 1 "FRAME_A4_ADAFRUIT" H 1100 7600 50  0001 C CNN
+F 2 "" H 1100 7600 50  0001 C CNN
+F 3 "" H 1100 7600 50  0001 C CNN
+	1    1100 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:FIDUCIAL_1MM FID3
+U 1 1 3B034C82
+P 10400 6700
+F 0 "FID3" H 10400 6700 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10400 6700 50  0001 C CNN
+F 2 "stemmaqt_shift:FIDUCIAL_1MM" H 10400 6700 50  0001 C CNN
+F 3 "" H 10400 6700 50  0001 C CNN
+	1    10400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:FIDUCIAL_1MM FID4
+U 1 1 1BA5E045
+P 10400 6400
+F 0 "FID4" H 10400 6400 50  0001 C CNN
+F 1 "FIDUCIAL_1MM" H 10400 6400 50  0001 C CNN
+F 2 "stemmaqt_shift:FIDUCIAL_1MM" H 10400 6400 50  0001 C CNN
+F 3 "" H 10400 6400 50  0001 C CNN
+	1    10400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:MOUNTINGHOLE2.5 U$19
+U 1 1 24E1B701
+P 11000 6400
+F 0 "U$19" H 11000 6400 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 11000 6400 50  0001 C CNN
+F 2 "stemmaqt_shift:MOUNTINGHOLE_2.5_PLATED" H 11000 6400 50  0001 C CNN
+F 3 "" H 11000 6400 50  0001 C CNN
+	1    11000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L stemmaqt_shift-eagle-import:MOUNTINGHOLE2.5 U$21
+U 1 1 0A062DCF
+P 11000 6700
+F 0 "U$21" H 11000 6700 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 11000 6700 50  0001 C CNN
+F 2 "stemmaqt_shift:MOUNTINGHOLE_2.5_PLATED" H 11000 6700 50  0001 C CNN
+F 3 "" H 11000 6700 50  0001 C CNN
+	1    11000 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 8700 2300 0    73   ~ 0
+STEMMA/I2C Headers
+$Comp
+L Connector:Conn_01x05_Male J3
+U 1 1 5D934FCA
+P 6450 3650
+F 0 "J3" V 6604 3362 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 6513 3362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6450 3650 50  0001 C CNN
+F 3 "~" H 6450 3650 50  0001 C CNN
+	1    6450 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 5D937A7C
+P 6450 2400
+F 0 "J2" V 6512 2112 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 6603 2112 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6450 2400 50  0001 C CNN
+F 3 "~" H 6450 2400 50  0001 C CNN
+	1    6450 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J1
+U 1 1 5D80D4C5
+P 4550 3550
+F 0 "J1" H 4600 4067 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 4600 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical" H 4550 3550 50  0001 C CNN
+F 3 "~" H 4550 3550 50  0001 C CNN
+	1    4550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D8124D2
+P 4600 4050
+F 0 "#PWR0101" H 4600 3800 50  0001 C CNN
+F 1 "GND" H 4605 3877 50  0000 C CNN
+F 2 "" H 4600 4050 50  0001 C CNN
+F 3 "" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3650 5000 3650
+Wire Wire Line
+	5000 3650 5000 4050
+Wire Wire Line
+	5000 4050 4600 4050
+Wire Wire Line
+	4350 3650 4200 3650
+Wire Wire Line
+	4200 3650 4200 4050
+Wire Wire Line
+	4200 4050 4600 4050
+Connection ~ 4600 4050
+NoConn ~ 4850 3750
+Text Label 4850 3250 0    70   ~ 0
+SDA
+Text Label 4350 3250 2    70   ~ 0
+SCL
+$Comp
+L power:GND #PWR0102
+U 1 1 5D93E1B8
+P 5500 4050
+F 0 "#PWR0102" H 5500 3800 50  0001 C CNN
+F 1 "GND" H 5505 3877 50  0000 C CNN
+F 2 "" H 5500 4050 50  0001 C CNN
+F 3 "" H 5500 4050 50  0001 C CNN
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+Text Label 5500 4050 0    70   ~ 0
+GND
+Text Label 6250 3450 2    70   ~ 0
+GND
+Text Label 6250 2600 2    70   ~ 0
+GND
+NoConn ~ 4850 3850
+Text Label 4350 3750 2    50   ~ 0
+T1
+Text Label 4350 3850 2    50   ~ 0
+T2
+Text Label 4350 3350 2    50   ~ 0
+D2
+Text Label 4850 3550 0    50   ~ 0
+D7
+Text Label 4850 3450 0    50   ~ 0
+D5
+Text Label 4850 3350 0    50   ~ 0
+D3
+Text Label 4350 3450 2    50   ~ 0
+D4
+Text Label 4350 3550 2    50   ~ 0
+D6
+Text Label 6350 3450 1    50   ~ 0
+T1
+Text Label 6350 2600 3    50   ~ 0
+T2
+Text Label 6650 3450 1    50   ~ 0
+D3
+Text Label 6550 3450 1    50   ~ 0
+D5
+Text Label 6450 3450 1    50   ~ 0
+D7
+Text Label 6650 2600 3    50   ~ 0
+D2
+Text Label 6550 2600 3    50   ~ 0
+D4
+Text Label 6450 2600 3    50   ~ 0
+D6
+$EndSCHEMATC
